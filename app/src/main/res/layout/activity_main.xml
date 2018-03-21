@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.s.samsungitschool.serverexample.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/number_1_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1 число"/>
+
+    <EditText
+        android:id="@+id/number_2_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2 число"/>
+
+    <Button
+        android:id="@+id/count_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Посчитать"/>
+
+    <TextView
+        android:id="@+id/answer_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
